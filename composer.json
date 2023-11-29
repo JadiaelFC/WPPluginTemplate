@@ -1,0 +1,19 @@
+{
+    "name": "user/name",
+    "description": "Plugin description here",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "name",
+            "email": "email@email.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "User\\Includes\\": "includes/"
+        }
+    },
+    "minimum-stability": "stable"
+}
